@@ -2,3 +2,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(211, 68, 112)
+
+}
+
+.conteiner {
+    background-color: white;
+    margin: auto;
+    width: 920px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+}
+.header-align {
+    text-align: center;
+    padding: 2rem ;
+}
+
+.sott-all {
+    padding: 1.5rem;
+}
