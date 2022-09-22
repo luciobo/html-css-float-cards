@@ -32,3 +32,17 @@ h1 {
 .sott-all {
     padding: 1.5rem;
 }
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.raw {
+    float: left;
+    width: 33.3%;
+    height: 120px;
+    background-color: red;
+    margin: 10px;
+}
