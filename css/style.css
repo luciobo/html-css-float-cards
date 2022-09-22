@@ -41,8 +41,8 @@ h1 {
 
 .raw {
     float: left;
-    width: 33.3%;
     height: 120px;
     background-color: red;
     margin: 10px;
+    width: calc(33.3% - 20px);
 }
