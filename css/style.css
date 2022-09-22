@@ -18,8 +18,8 @@ h1 {
 /* dimesionamento immagine */
 img {
     float: left;
-    width: 41.8%;
     border-radius: 8px;
+    width: 33.3%;
 
 }
 /* contenitore principale */
@@ -51,7 +51,6 @@ img {
 
 .raw {
     float: left;
-    height: 120px;
     background-color: black;
     margin: 10px;
     width: calc(33.3% - 20px);
@@ -60,7 +59,9 @@ img {
 }
 
 .box-align {
+    float:left;
     color: white;
-    padding: 1rem;
+    padding: 0.5rem;
+    width: calc(100% - 33.3%);
     
 }
