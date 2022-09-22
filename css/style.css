@@ -30,6 +30,7 @@ img {
     margin-top: 2rem;
     margin-bottom: 2rem;
     border-radius: 8px;
+    padding-bottom: 2rem;
 }
 /* allineamento header */
 .header-align {
@@ -41,7 +42,7 @@ img {
     padding: 1.5rem;
 }
 
-/* box */
+/* allineamento box */
 
 .clearfix::after {
     content: "";
@@ -63,5 +64,6 @@ img {
     color: white;
     padding: 0.5rem;
     width: calc(100% - 33.3%);
+    line-height: 26px;
     
 }
