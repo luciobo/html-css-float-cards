@@ -5,11 +5,54 @@
 }
 
 
-
 body {
     background-color: lightblue;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-    color: rgb(211, 68, 112)
+header h1 {
+    color: rgb(211, 68, 112);
+    padding-bottom: 1rem;
+}
+
+.conteiner {
+    background-color: white;
+    margin: auto;
+    width: 920px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.header-align {
+    padding: 2.5rem;
+}
+
+.raw img {
+    width: 100px;
+    border-radius: 8px;
+}
+
+.main-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.raw {
+    display: flex;
+    background-color: black;
+    width: 288px;
+    border-radius: 8px;
+    margin: 8px;
+}
+
+.box-align {
+    color: white;
+    width: 70%;
+    line-height: 26px;
+    padding: 8px;
+}
